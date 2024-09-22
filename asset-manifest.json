@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/employees-filter-2024/static/css/main.cce5d097.css",
+    "main.js": "/employees-filter-2024/static/js/main.14c34452.js",
+    "index.html": "/employees-filter-2024/index.html",
+    "main.cce5d097.css.map": "/employees-filter-2024/static/css/main.cce5d097.css.map",
+    "main.14c34452.js.map": "/employees-filter-2024/static/js/main.14c34452.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cce5d097.css",
+    "static/js/main.14c34452.js"
+  ]
+}
