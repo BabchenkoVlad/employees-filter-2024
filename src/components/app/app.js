@@ -8,13 +8,15 @@ import EmployeesAddForm from '../employees-add-form/employees-add-form';
 
 import './app.css';
 
+const listEmployees = [
+  {name: "John X.", salary: 800, increase: false, star: true, id: 1},
+  {name: "Mickael T.", salary: 1000, increase: true, star: false, id: 2},
+  {name: "Derek H.", salary: 1200, increase: false, star: false, id: 3},
+];
+
 function App() {
 
-  const [data, setData] = useState([
-    {name: "John X.", salary: 800, increase: false, star: true, id: 1},
-    {name: "Mickael T.", salary: 1000, increase: true, star: false, id: 2},
-    {name: "Derek H.", salary: 1200, increase: false, star: false, id: 3},
-  ]);
+  const [data, setData] = useState(listEmployees);
   const [term, setTerm] = useState('');
   const [filter, setFilter] = useState('all');
 
